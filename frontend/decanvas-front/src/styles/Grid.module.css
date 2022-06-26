@@ -1,0 +1,18 @@
+.grid {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    /* box-shadow: inset 0 0 2px black; */
+}
+
+.grid div:hover {
+    box-shadow: inset 0 0 2px black;
+}
